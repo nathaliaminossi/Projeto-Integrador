@@ -1,10 +1,9 @@
 
+export default function SimpleTable() {
+  return (
 
+    <div className=" bg-amber-50">
 
-export default function Admin() {
-    return (
-        <div>
-            <h1>Eu sou o admin</h1>
-        </div>
-    )
+    </div>
+  );
 }
