@@ -43,7 +43,7 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar>
+    <Sidebar className="">
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Application</SidebarGroupLabel>
@@ -61,9 +61,11 @@ export function AppSidebar() {
               ))}
             </SidebarMenu>
           </SidebarGroupContent>
-          <ModeToggle/>
+
         </SidebarGroup>
+        
       </SidebarContent>
+                <ModeToggle/>
     </Sidebar>
   )
 }
