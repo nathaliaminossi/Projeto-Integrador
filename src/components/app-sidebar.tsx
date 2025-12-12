@@ -12,6 +12,8 @@ import {
 } from "@/components/ui/sidebar"
 import { ModeToggle } from "./mode-toggle"
 
+import { UserSidebar } from "./userSidebar"
+
 // Menu items.
 const items = [
   {
@@ -66,6 +68,11 @@ export function AppSidebar() {
         
       </SidebarContent>
                 <ModeToggle/>
+                <UserSidebar user={{
+        name: "nathalia minossi",
+        email: "minossi@gmail.com",
+        avatar: ""
+      }}/>
     </Sidebar>
   )
 }

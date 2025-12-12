@@ -1,16 +1,29 @@
 import TableAdmin from "@/components/tableAdmin";
-import UserInfo from "@/components/userInfo";
+import CardRequest from "@/components/cardRequest";
+import { ChartArea } from "@/components/chartArea";
 
 export default function Admin() {
   return (
     <div className="w-full h-full p-10 flex flex-col gap-8">
-      <UserInfo />
 
-      <div className="w-full flex justify-center">
-        <div className="w-full max-w-5xl bg-accent  rounded-xl">
-          <TableAdmin />
+      {/* GRÁFICO + CARD LADO A LADO */}
+      <div className="flex flex-row items-start gap-6 w-full">
+
+        <div className="w-[30vw] max-w-5xl bg-accent rounded-xl">
+          <ChartArea />
         </div>
+
+        <div className="w-[12vw] max-w-[180px] bg-accent rounded-xl p-2 flex items-center justify-center">
+          <CardRequest value={0}/>
+        </div>
+
       </div>
+
+      {/* TABELA */}
+      <div className="w-[80vw] max-w-5xl bg-accent rounded-xl">
+        <TableAdmin />
+      </div>
+
     </div>
   );
 }

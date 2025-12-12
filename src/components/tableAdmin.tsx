@@ -25,6 +25,10 @@ const data = [
     { id: "3", name: "exemple", cpf: "1111111111", Reciclagem: "Papel",data:"11-11-25",  status: "processing" },
       { id: "3", name: "exemple", cpf: "1111111111", Reciclagem: "Papel",data:"11-11-25",  status: "processing" },
         { id: "3", name: "exemple", cpf: "1111111111", Reciclagem: "Papel",data:"11-11-25",  status: "processing" },
+          { id: "3", name: "exemple", cpf: "1111111111", Reciclagem: "Papel",data:"11-11-25",  status: "processing" },
+
+            { id: "3", name: "exemple", cpf: "1111111111", Reciclagem: "Papel",data:"11-11-25",  status: "processing" },
+
 
 ];
 
