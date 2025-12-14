@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 // Tipagem dos dados enviados pelo formulário
 export interface RecyclingFormData {
+    deliveryLocal(deliveryLocal: any, material: string, arg2: number): unknown;
     material: string;
     quantidade: number;
     localizacao: string;

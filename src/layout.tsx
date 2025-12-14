@@ -7,7 +7,7 @@ export default function Layout() {
     <SidebarProvider>
       <AppSidebar />
       <main className="h-full w-full">
-        <SidebarTrigger />
+        {/* <SidebarTrigger /> */}
         <Outlet/>
       </main>
     </SidebarProvider>

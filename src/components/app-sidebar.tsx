@@ -18,27 +18,27 @@ import { UserSidebar } from "./userSidebar"
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/userHome",
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "#",
+    title: "Materiais",
+    url: "/materials",
     icon: Inbox,
   },
   {
-    title: "Calendar",
-    url: "#",
+    title: "Bonificações",
+    url: "/bonifications",
     icon: Calendar,
   },
   {
-    title: "Search",
-    url: "#",
+    title: "Localização",
+    url: "/location",
     icon: Search,
   },
   {
-    title: "Settings",
-    url: "#",
+    title: "Configurações",
+    url: "/userConfig",
     icon: Settings,
   },
 ]
@@ -48,7 +48,7 @@ export function AppSidebar() {
     <Sidebar className="">
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Application</SidebarGroupLabel>
+          <SidebarGroupLabel>Recicle +</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
@@ -68,11 +68,7 @@ export function AppSidebar() {
         
       </SidebarContent>
                 <ModeToggle/>
-                <UserSidebar user={{
-        name: "nathalia minossi",
-        email: "minossi@gmail.com",
-        avatar: ""
-      }}/>
+       
     </Sidebar>
   )
 }

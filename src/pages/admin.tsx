@@ -19,10 +19,6 @@ export default function Admin() {
 
       </div>
 
-      {/* TABELA */}
-      <div className="w-[80vw] max-w-5xl bg-accent rounded-xl">
-        <TableAdmin />
-      </div>
 
     </div>
   );
